@@ -9,7 +9,7 @@ body {
 #hero-image {
   height: 600px;
   width: 100%;
-  background: url("/resources/images/cover.jpeg") no-repeat center center;
+  background: url("../resources/images/cover.jpeg") no-repeat center center;
   background-size: auto;
   background-size: auto;
   animation-name: hero-zoom;
