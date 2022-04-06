@@ -3,6 +3,8 @@
 [![pages-build-deployment](https://github.com/SOliv1/excursion/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/SOliv1/excursion/actions/workflows/pages/pages-build-deployment)
 [![Jekyll site CI](https://github.com/SOliv1/wilding-london/actions/workflows/jekyll.yml/badge.svg)](https://github.com/SOliv1/wilding-london/actions/workflows/jekyll.yml)
 
+[wildinglondon]( https://wildinglondon.com/)
+
 -# excursion
 
 ## shortcut code for HTML boiler plate = type ! then hit tab
