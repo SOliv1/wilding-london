@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+body {
+    background-color: #000000;
+    text-align: center;
+    font-family: "Oswald", "Lato", sans-serif;
+}
+
+#hero-image {
+  height: 600px;
+  width: 100%;
+  background: url("/resources/images/cover.jpeg") no-repeat center center;
+  background-size: auto;
+  background-size: auto;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  background-size: cover;
+}
+
+#cover-text {
+  font-size: 130%;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(107, 210, 241, 0.38);
+  /*background-color: rgba(241, 109, 107, .7);*/
+  padding-top: 20px;
+  padding-left: 10px;
+  bottom: 30px;
+  right: 150px;
+  position: absolute;
+  padding-top: 20px;
+}
+
+/* HEADINGS */
+
+.header--main {
+ font-weight: normal;
+ font-size: 50px;
+ color: #ffffff;
+}
+
+.header--secondary {
+    font-weight: 300px;
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.header--sub-header {
+    font-size: 21px;
+    color:grey
+}
+
+
+/* LINKS */
+
+.link--cta {
+font-size: 16px;
+color: #7fffd4;
+}
+
+/*  FOOTER */
+
+.footer--copyright {
+font-size: 21px;
+color: #7fffd4;
+text-align: right;
+}
