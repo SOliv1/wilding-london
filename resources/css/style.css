@@ -57,6 +57,12 @@ body {
 
 /* LINKS */
 
+a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
 .link--cta {
 font-size: 16px;
 color: #7fffd4;
