@@ -52,6 +52,10 @@ body {
   padding-top: 20px;
 }
 
+img.meet {
+    width: 2em;
+}
+
 /* LINKS */
 
 .link--cta {
