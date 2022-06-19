@@ -84,6 +84,13 @@ body {
 }
 
 
+/* Meet img */
+
+
+img.meet {
+    width: 2em;
+}
+
 /* LINKS */
 
 a {
