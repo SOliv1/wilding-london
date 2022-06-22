@@ -64,6 +64,25 @@ body {
 
 }
 
+#article-text {
+  font-size:50%;
+  font-family: "Oswald";
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /*width: 300px;
+  height: 200px;*/
+  background-color: rgb(68 121 123 / 68%);
+  color: #fff;
+
+}
+
+h4.heading {
+  text-shadow: 2px 2px #9f6666;
+}
+
 /* HEADINGS */
 
 .header--main {
