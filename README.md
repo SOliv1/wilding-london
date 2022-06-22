@@ -5,6 +5,8 @@
 
 [wildinglondon]( https://wildinglondon.com/)
 
+https://wildinglondon.com/
+
 -# excursion
 
 ## shortcut code for HTML boiler plate = type ! then hit tab
