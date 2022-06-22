@@ -52,6 +52,18 @@ body {
   background-size: cover;
 }
 
+#hero-image-article {
+  height: 600px;
+  width: 100%;
+  background: url("../images/AdobeStock_113516382.jpeg") no-repeat center center;
+  background-size: auto;
+  background-size: auto;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  background-size: cover;
+}
+
 #cover-text {
   font-size: 130%;
   font-family: "Oswald";
