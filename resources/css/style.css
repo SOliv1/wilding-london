@@ -6,10 +6,12 @@ body {
     font-family: "Oswald", "Lato", sans-serif;
 }
 
-/*#hero-image {
+#hero-image-article {
   height: 600px;
   width: 100%;
-  background: url("../images/londonskyline.jpeg") no-repeat center center;
+  flex-direction: column;
+  /*background: url("../images/AdobeStock_113516382.jpeg") no-repeat center center;*/
+  background: url("../images/Moonlightdeer.jpeg") no-repeat center center;
   background-size: auto;
   background-size: auto;
   animation-name: hero-zoom;
@@ -18,7 +20,50 @@ body {
   background-size: cover;
 }
 
-#cover-text {
+#article-text, #bison-text {
+  font-size:50%;
+  font-family: "Oswald";
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /*width: 300px;
+  height: 200px;*/
+  background-color: #00000080;
+  color: #fff;
+
+}
+
+#hero-image-autumn {
+  height: 600px;
+  width: 100%;
+  background: url("../images/AdobeStock_46805286.jpeg") no-repeat center center;
+  background-color: rgba(107, 210, 241, 0.38);
+  background-size: auto;
+  background-size: auto;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  background-size: cover;
+}
+
+ #autumn-text {
+  font-size:50%;
+  font-family: "Oswald";
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /*width: 300px;
+  height: 200px;*/
+  background-color: #00000080;
+  color: #fff;
+
+}
+
+/*#cover-text {
   font-size: 130%;
   font-family: "Oswald";
   text-transform: uppercase;
@@ -52,18 +97,20 @@ body {
   background-size: cover;
 }
 
-#hero-image-article {
-  height: 600px;
-  width: 100%;
-  flex-direction: column;
-  /*background: url("../images/AdobeStock_113516382.jpeg") no-repeat center center;*/
-  background: url("../images/Moonlightdeer.jpeg") no-repeat center center;
-  background-size: auto;
-  background-size: auto;
-  animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-  background-size: cover;
+
+
+
+
+#cover-text {
+  font-size: 130%;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(107, 210, 241, 0.38);
+  color: #f5f5f5;
+
 }
 
 #hero-image-bison {
@@ -78,32 +125,6 @@ body {
   background-size: cover;
 }
 
-#cover-text {
-  font-size: 130%;
-  font-family: "Oswald";
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  width: 300px;
-  height: 200px;
-  background-color: rgba(107, 210, 241, 0.38);
-  color: #f5f5f5;
-
-}
-
-#article-text, #bison-text {
-  font-size:50%;
-  font-family: "Oswald";
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  /*width: 300px;
-  height: 200px;*/
-  background-color: #00000080;
-  color: #fff;
-
-}
 
 
 h4.heading {
@@ -151,6 +172,15 @@ color: #7fffd4;
 }
 
 /*  FOOTER */
+
+#hero-image-beaver {
+  display: flex;
+  flex-wrap: wrap;
+  background: url("../images/beaver.jpeg") no-repeat center center;
+  background-size: auto;
+  background-size: auto;
+  background-size: cover;
+}
 
 .footer--copyright {
 font-size: 21px;

@@ -1,5 +1,6 @@
 {
     "yaml.schemas": {
         "https://json.schemastore.org/sourcehut-build-0.65.0.json": "file:///workspace/wilding-london/.gitpod.yml"
-    }
+    },
+    "liveServer.settings.port": 5501
 }
