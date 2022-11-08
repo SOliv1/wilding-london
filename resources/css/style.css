@@ -63,6 +63,30 @@ body {
 
 }
 
+#hero-image-beaver {
+  height: 600px;
+  width: 100%;
+  background: url("../images/AdobeStock_320073481.jpeg") no-repeat center center;
+  background-color: rgba(107, 210, 241, 0.38);
+  background-size: auto;
+  background-size: auto;
+}
+
+#beaver-text {
+  font-size:50%;
+  font-family: "Oswald";
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /*width: 300px;
+  height: 200px;*/
+  background-color: #00000080;
+  color: #fff;
+
+}
+
 /*#cover-text {
   font-size: 130%;
   font-family: "Oswald";
