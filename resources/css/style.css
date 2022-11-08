@@ -6,6 +6,11 @@ body {
     font-family: "Oswald", "Lato", sans-serif;
 }
 
+.dropdown-menu.show {
+  background-color: rgba(107, 210, 241, 0.38);
+  color: #fff;
+}
+
 #hero-image-article {
   height: 600px;
   width: 100%;
@@ -65,11 +70,15 @@ body {
 
 #hero-image-beaver {
   height: 600px;
-  width: 100%;
-  background: url("../images/AdobeStock_320073481.jpeg") no-repeat center center;
+  width: 100%; 
+  /*background: url("../images/AdobeStock_320073481.jpeg") no-repeat center center;*/
   background-color: rgba(107, 210, 241, 0.38);
+  display: flex;
+  flex-wrap: wrap; 
+  background: url("../images/beaver.jpeg") no-repeat center center;
   background-size: auto;
   background-size: auto;
+  background-size: cover;
 }
 
 #beaver-text {
@@ -120,9 +129,6 @@ body {
   animation-fill-mode: forwards;
   background-size: cover;
 }
-
-
-
 
 
 #cover-text {
@@ -177,7 +183,6 @@ h4.heading {
 
 /* Meet img */
 
-
 img.meet {
     width: 2em;
 }
@@ -197,14 +202,6 @@ color: #7fffd4;
 
 /*  FOOTER */
 
-#hero-image-beaver {
-  display: flex;
-  flex-wrap: wrap;
-  background: url("../images/beaver.jpeg") no-repeat center center;
-  background-size: auto;
-  background-size: auto;
-  background-size: cover;
-}
 
 .footer--copyright {
 font-size: 21px;
