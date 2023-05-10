@@ -40,6 +40,21 @@ body {
 
 }
 
+#article-text, #winter-spring-text {
+  font-size:50%;
+  font-family: "Oswald";
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /*width: 300px;
+  height: 200px;*/
+  background-color: #00000080;
+  color: #fff;
+
+}
+
 #hero-image-winter-spring {
   height: 600px;
   width: 100%;
@@ -220,4 +235,33 @@ color: #7fffd4;
 font-size: 21px;
 color: #7fffd4;
 text-align: right;
+}
+
+@media only screen and (max-width: 550px) {
+  header .main {
+      display: none;
+  }
+
+  header .mobile {
+      display: block;
+      width: 100%;
+  }
+
+  header .mobile ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .logo {
+      justify-content: center;
+  }
+
+  .logo span {
+      display: none;
+  }
+
+  nav {
+      display: none;
+  }
 }
